@@ -1,14 +1,14 @@
 {
   "versionCode": 7,
   "versionName": "1.4.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@0ec0c2426614861650d45f25c79120abeb06b942/apk/wb-switch-1.4.0.apk",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@73359d73b718795fadc29327e3044d3d66724d87/apk/wb-switch-1.4.0.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@0ec0c2426614861650d45f25c79120abeb06b942/apk/wb-switch-1.4.0.apk",
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@73359d73b718795fadc29327e3044d3d66724d87/apk/wb-switch-1.4.0.apk",
     "https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk",
     "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk",
     "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk"
   ],
   "size": 1863750,
   "sha256": "5d5f8df1d714072380e6b344a9a4d763095823e68a7c68c96f22a4e2f6f5c5c0",
-  "notes": "新增：账号删除/备注/分组、统计页、额度与凭证到期提醒、后台定时签到、启动自动刷新；App 体积因引入 WorkManager 增至约 1.8MB"
+  "notes": "新增账号删除/备注/分组、统计页、额度与凭证到期提醒、后台定时签到、启动自动刷新"
 }
