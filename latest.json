@@ -1,14 +1,14 @@
 {
-  "versionCode": 6,
-  "versionName": "1.3.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@8cde82a4729ce281376a290d9d4b4bbc467f86fc/apk/wb-switch-1.3.0.apk",
+  "versionCode": 7,
+  "versionName": "1.4.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@0ec0c2426614861650d45f25c79120abeb06b942/apk/wb-switch-1.4.0.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@8cde82a4729ce281376a290d9d4b4bbc467f86fc/apk/wb-switch-1.3.0.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.3.0/wb-switch-1.3.0.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.3.0/wb-switch-1.3.0.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.3.0/wb-switch-1.3.0.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@0ec0c2426614861650d45f25c79120abeb06b942/apk/wb-switch-1.4.0.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk"
   ],
-  "size": 1437906,
-  "sha256": "96510f4d6830e88b622ba9863b1ac03b8eba43fca557a318bbd055cc675591bc",
-  "notes": "新增深色模式（跟随系统/浅色/深色）；签到热力图（近12周）；签到失败自动重试 + 结果明细；签到结果系统通知；检查更新提速（并发竞速 + 本地缓存）"
+  "size": 1863750,
+  "sha256": "5d5f8df1d714072380e6b344a9a4d763095823e68a7c68c96f22a4e2f6f5c5c0",
+  "notes": "新增：账号删除/备注/分组、统计页、额度与凭证到期提醒、后台定时签到、启动自动刷新；App 体积因引入 WorkManager 增至约 1.8MB"
 }
