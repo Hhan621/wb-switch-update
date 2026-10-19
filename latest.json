@@ -1,7 +1,14 @@
 {
   "versionCode": 4,
   "versionName": "1.2.0",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.2.0/wb-switch-1.2.0.apk",
-  "size": 1431307,
-  "notes": "新增手机号验证码登录 / 扫码登录，登录后自动抓取并校验凭证入库"
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@78a58a7e6884f108b3e8da607a6cc6c25d697995/apk/wb-switch-1.2.0.apk",
+  "apkUrls": [
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@78a58a7e6884f108b3e8da607a6cc6c25d697995/apk/wb-switch-1.2.0.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.2.0/wb-switch-1.2.0.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.2.0/wb-switch-1.2.0.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.2.0/wb-switch-1.2.0.apk"
+  ],
+  "size": 1431483,
+  "sha256": "4be7d7aa46ac72f046c76f8f0419ca5c80b720598c5845e08c6bbed4fee97cf0",
+  "notes": "新增手机号验证码登录 / 扫码登录；下载支持多源自动切换"
 }
