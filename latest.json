@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.1",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.1.1/wb-switch-1.1.1.apk",
-  "size": 1425369,
-  "notes": "修复检查更新无反应；内置清单地址，无需手动填写"
+  "versionCode": 4,
+  "versionName": "1.2.0",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.2.0/wb-switch-1.2.0.apk",
+  "size": 1431307,
+  "notes": "新增手机号验证码登录 / 扫码登录，登录后自动抓取并校验凭证入库"
 }
