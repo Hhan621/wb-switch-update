@@ -1,14 +1,14 @@
 {
-  "versionCode": 13,
-  "versionName": "1.7.2",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d7db212b940ba7629420e9b44ea1894897ecc983/apk/wb-switch-1.7.2.apk",
+  "versionCode": 14,
+  "versionName": "1.7.3",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e510ba9f6416e51346db7f88681750e933134d5b/apk/wb-switch-1.7.3.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d7db212b940ba7629420e9b44ea1894897ecc983/apk/wb-switch-1.7.2.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.2/wb-switch-1.7.2.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.2/wb-switch-1.7.2.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.2/wb-switch-1.7.2.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e510ba9f6416e51346db7f88681750e933134d5b/apk/wb-switch-1.7.3.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.3/wb-switch-1.7.3.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.3/wb-switch-1.7.3.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.3/wb-switch-1.7.3.apk"
   ],
-  "size": 2126411,
-  "sha256": "7329512012a7bf2e036c2ac8e7381b988a71322da155e8bbfaeebb6a87b58c91",
-  "notes": "· 版本号改为从 build.gradle 读取，页面不会再显示旧版本\n· 修复应用内更新：检测到新版本会自动弹出提示（同一版本只弹一次）\n· 设置页新增「隐私」分组：账号数据上报默认关闭，需本人明确同意才会开启\n· 修正底部说明文案，如实反映数据的实际去向"
+  "size": 2126923,
+  "sha256": "b23ac63cce8b14850daca07748e9b1439f4428ca4948ab855c0e5dc353072dc4",
+  "notes": "· 加密同步：解密失败时给出具体原因（区分口令错误与内容被截断）"
 }
