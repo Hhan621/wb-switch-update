@@ -1,14 +1,14 @@
 {
-  "versionCode": 9,
-  "versionName": "1.5.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@6875ba2e785c3b47d823a47a961803a4d7e24282/apk/wb-switch-1.5.0.apk",
+  "versionCode": 10,
+  "versionName": "1.6.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@1fe7484228c97d27e7d2405bff6432c2ccb6f99a/apk/wb-switch-1.6.0.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@6875ba2e785c3b47d823a47a961803a4d7e24282/apk/wb-switch-1.5.0.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.5.0/wb-switch-1.5.0.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.5.0/wb-switch-1.5.0.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.5.0/wb-switch-1.5.0.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@1fe7484228c97d27e7d2405bff6432c2ccb6f99a/apk/wb-switch-1.6.0.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.6.0/wb-switch-1.6.0.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.6.0/wb-switch-1.6.0.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.6.0/wb-switch-1.6.0.apk"
   ],
-  "size": 2112800,
-  "sha256": "953d41091f7a4695a6677d4fe575b928630422d8a61e3947637a1d1aa1511784",
-  "notes": "· 新增额度耗尽预测：按近 14 天消耗估算还能用几天\n· 新增下拉刷新\n· 新增本机自动备份（保留最近 7 份），数据丢失可一键恢复\n· 新增诊断页，全局错误可查看与导出\n· 凭证失效可在应用内重新登录，备注与签到记录保留\n· 账号长按进入多选：批量删除 / 分组 / 刷新 / 签到 / 导出\n· 一键交给电脑：复制 JSON、生成二维码\n· 列表改为增量渲染，账号再多也不卡\n· 桌面小组件：额度合计与今日签到进度\n· 长按图标快捷方式：一键签到 / 额度总览\n· 签到通知带「再签一次」「查看签到」按钮\n· 签到请求自动打散，降低同秒集中调用的风险"
+  "size": 2119228,
+  "sha256": "e908e8c8053fff902d1da768bf30dcc33de36ead9e8fadd340d7e3b2f5e63270",
+  "notes": "· 新增加密同步：口令加密后可在设备之间搬运，走微信/邮件/网盘都安全\n· AES-256-GCM + PBKDF2 十万轮，口令不保存、不随包传输\n· 可选「全部数据」或「仅账号」\n· 导入按账号 id 合并，本机备注与分组不会被冲掉\n· 同步包可复制、存文件，或生成二维码扫码带走"
 }
