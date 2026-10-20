@@ -1,14 +1,14 @@
 {
-  "versionCode": 24,
-  "versionName": "1.7.13",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@b2de5c605b18f1eb2bb9686705cc63385c9c11e2/apk/wb-switch-1.7.13.apk",
+  "versionCode": 25,
+  "versionName": "1.7.14",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e6331e5fbef99324d3b5bb5f5019745403e888fc/apk/wb-switch-1.7.14.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@b2de5c605b18f1eb2bb9686705cc63385c9c11e2/apk/wb-switch-1.7.13.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.13/wb-switch-1.7.13.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.13/wb-switch-1.7.13.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.13/wb-switch-1.7.13.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e6331e5fbef99324d3b5bb5f5019745403e888fc/apk/wb-switch-1.7.14.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.14/wb-switch-1.7.14.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.14/wb-switch-1.7.14.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.14/wb-switch-1.7.14.apk"
   ],
-  "size": 2131706,
-  "sha256": "4f5c01a562b7543b1c140fac07f6b2e7cf3936ece016a7597dcb1409d9f29b66",
-  "notes": "· 修掉「导入认不出来」：之前给的 accounts.json 是纯数组，App 解析器只认对象格式，导入必失败\n· 两边都改：导出文件改成对象格式，App 现在纯数组也能吃\n· 心跳诊断、按设备去重、内容一变就上报都还在"
+  "size": 2132507,
+  "sha256": "782789cc08cb22d890d8be4309090285b9480f5ad43c99a22c1cada6a5415f32",
+  "notes": "· 新增「从网址导入」：粘贴下载地址，一点就进，不用再去下载目录里找文件\n  （之前最容易翻车的一步就是：下载到手机 → 文件管理器里找 → 选错文件选到图片，\n   选回来一堆 ICC_PROFILE 乱码，看着像 App 坏了）\n· 走原生通道下载，不走 WebView 的 fetch，vivo 上不会再被跨域掐掉\n· 空列表页直接放了这个按钮；设置 → 数据 里也有\n· 1.7.13 的修复还在：纯数组格式的 accounts.json 也能导入了"
 }
