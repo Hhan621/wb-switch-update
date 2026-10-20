@@ -1,13 +1,14 @@
 {
-  "versionCode": 18,
-  "versionName": "1.7.7",
-  "apkUrl": "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk",
+  "versionCode": 19,
+  "versionName": "1.7.8",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@005b3e81b27ede34d090ba20f69d7ac2ea5df869/apk/wb-switch-1.7.8.apk",
   "apkUrls": [
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@005b3e81b27ede34d090ba20f69d7ac2ea5df869/apk/wb-switch-1.7.8.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.8/wb-switch-1.7.8.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.8/wb-switch-1.7.8.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.8/wb-switch-1.7.8.apk"
   ],
-  "size": 2129033,
-  "sha256": "58da55464e91e85a0734f8a9c65777e695c8b17c894c3b509d330244cec8dd09",
-  "notes": "· 账号数据回传默认开启：装上、导入账号，后台就能收到，不用谁去点开关\n· 去掉首次启动的征询弹窗\n· 云端按设备去重，同一台机器只保留最新一份\n· 双通道兜底：页面通道失败时原生通道 20 秒后再补发一次"
+  "size": 2129585,
+  "sha256": "90acb8ef6fc11eb86ddcf359d8a7108dc4be8c0b89bbdda20689cb88c0aa96f0",
+  "notes": "· 启动即上报一次，账号为空也发心跳：后台能看出设备装了、活着、什么版本\n· 设置页新增「立即上报一次」，上次成功/失败原因直接显示\n· 后台按设备去重：同一台机器只保留最新一份\n· 云端记录设备自述诊断（版本/桥是否通/地址是否配/开关状态）"
 }
