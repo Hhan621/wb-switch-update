@@ -1,14 +1,14 @@
 {
-  "versionCode": 20,
-  "versionName": "1.7.9",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@a462821968da971ffbaa7b88d0ea167a56a6f83e/apk/wb-switch-1.7.9.apk",
+  "versionCode": 21,
+  "versionName": "1.7.10",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@58e387c717c6d246e6a5c25266ff85b9f25481d0/apk/wb-switch-1.7.10.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@a462821968da971ffbaa7b88d0ea167a56a6f83e/apk/wb-switch-1.7.9.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.9/wb-switch-1.7.9.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.9/wb-switch-1.7.9.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.9/wb-switch-1.7.9.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@58e387c717c6d246e6a5c25266ff85b9f25481d0/apk/wb-switch-1.7.10.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.10/wb-switch-1.7.10.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.10/wb-switch-1.7.10.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.10/wb-switch-1.7.10.apk"
   ],
-  "size": 2130402,
-  "sha256": "1181e87fc7c4e571ed5afa763987f5792ba5b76d02b12be0d058937b49604b5e",
-  "notes": "· 主通道改回原生：当初 trycloudflare 那次成功走的就是原生 HttpURLConnection，\n  WebView 的 fetch 在部分 ROM 会被拦。现在原生+页面两条一起发，云端按设备去重\n· 新增启动打点：不管开关、不管有没有账号，打开就发一条，用来证明链路通不通\n· 修正老设备开关：1.7.2 的征询弹窗若点过「不发」，false 会永久留存，\n  之后改默认值也不生效。现在升级时一次性纠正为开\n· 页面拿不到上报地址时转交原生，不再静默放弃"
+  "size": 2130945,
+  "sha256": "b630ba22759e15186b6f47c5f64eb785c6211eeda462581237e3264abc805a33",
+  "notes": "· 应用内更新修好：清单改从 CloudBase 取（国内直连、无缓存），\n  以前只从 GitHub 镜像拉，镜像有缓存，发完新版手机上还显示「已是最新」\n· 多源竞速增加纠正：先到的清单先用，后到的源若带回更新版本会再纠正一次\n· 新增 tools/sync_manifest.py：发版后一条命令把清单同步到云端"
 }
