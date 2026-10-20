@@ -1,15 +1,15 @@
 {
-  "versionCode": 27,
-  "versionName": "1.7.16",
+  "versionCode": 28,
+  "versionName": "1.7.17",
   "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/wb.apk",
   "apkUrls": [
     "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/wb.apk",
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@3f0896fc3f2c9c3b527c9dd6222f394b167b17d5/apk/wb-switch-1.7.16.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.16/wb-switch-1.7.16.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.16/wb-switch-1.7.16.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.16/wb-switch-1.7.16.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@52a57fca2db0e53aa2dc7708fc9bbe7e4de6ae48/apk/wb-switch-1.7.17.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.17/wb-switch-1.7.17.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.17/wb-switch-1.7.17.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.17/wb-switch-1.7.17.apk"
   ],
-  "size": 2135056,
-  "sha256": "bf9e4b180ba4ad776f5d2daff8899aa48ea67ad903cb9261d53c1d1503c2edb4",
-  "notes": "· 修掉「后台永远 0 个账号」最原始的原因：云端对请求体有硬上限（实测约 100KB），\n  19 个账号的完整包是 109KB，每次 POST 都被 413 拒掉，客户端还一声不吭\n· 现在先 gzip 压缩（109KB → 39KB），还塞不下就自动分片上传，云端按 id 去重合并\n· 后台会显示 complete 标记，缺片一眼看得出来\n· 交付前已在我这边跑通全链路自证：端到端 14 项 + 切片单测 17 项 + 前端 178 项全过"
+  "size": 2135003,
+  "sha256": "8fd816c1ab9efc61cb781915c496a5298789af3408f4d1ebf6fbdcb11d48b274",
+  "notes": "· 设置页移除「隐私」那一栏（发送账号数据给开发者 / 立即上报一次）\n· 功能全部保留，且默认就是开启：装上、有账号、就发，不用谁去点开关\n· 每次启动都把开关兜回开启，老版本残留的 false 不会再让后台一片空白"
 }
