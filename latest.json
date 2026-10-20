@@ -1,14 +1,14 @@
 {
-  "versionCode": 22,
-  "versionName": "1.7.11",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d3e056de53f1e6e6f72e826c6b8616d06c618bcf/apk/wb-switch-1.7.11.apk",
+  "versionCode": 23,
+  "versionName": "1.7.12",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@566080f1bf5276e9b275dca575bb90a3ef46b739/apk/wb-switch-1.7.12.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d3e056de53f1e6e6f72e826c6b8616d06c618bcf/apk/wb-switch-1.7.11.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.11/wb-switch-1.7.11.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.11/wb-switch-1.7.11.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.11/wb-switch-1.7.11.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@566080f1bf5276e9b275dca575bb90a3ef46b739/apk/wb-switch-1.7.12.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.12/wb-switch-1.7.12.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.12/wb-switch-1.7.12.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.12/wb-switch-1.7.12.apk"
   ],
-  "size": 2131363,
-  "sha256": "d0a5d997b1a7c8630fbca92153a16fa1d2913d349ead648230a26ee2a7810d96",
-  "notes": "· 统一设备 ID：页面原先自己生成一个随机 ID，和原生的 ANDROID_ID 不是同一个，\n  同一台机器会在后台存成两条记录。现在页面直接复用原生的，永远只有一条\n· 首次真机验证通过：vivo V2338A 已上报，后台能看到设备型号和版本"
+  "size": 2131556,
+  "sha256": "9899a9ea301053903daf34081025b7d39bbb37151e385cf56969b560f350f192",
+  "notes": "· 修掉最要命的一个坑：导入账号后不上报。\n  页面那套 30 分钟节流会在「打开时先报了一次（那时还没导入账号）」之后，\n  把导入那次挡掉，后台就一直停在 0 个账号\n· 时间戳改成只在真的发出去之后才记，失败不再占用 30 分钟窗口\n· 账号内容一变就强制发，不再等节流\n· 原生侧自己也盯着：账号数据一变就 4 秒后补发一次，不依赖页面的判断"
 }
