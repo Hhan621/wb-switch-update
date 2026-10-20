@@ -1,14 +1,14 @@
 {
-  "versionCode": 19,
-  "versionName": "1.7.8",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@005b3e81b27ede34d090ba20f69d7ac2ea5df869/apk/wb-switch-1.7.8.apk",
+  "versionCode": 20,
+  "versionName": "1.7.9",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@a462821968da971ffbaa7b88d0ea167a56a6f83e/apk/wb-switch-1.7.9.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@005b3e81b27ede34d090ba20f69d7ac2ea5df869/apk/wb-switch-1.7.8.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.8/wb-switch-1.7.8.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.8/wb-switch-1.7.8.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.8/wb-switch-1.7.8.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@a462821968da971ffbaa7b88d0ea167a56a6f83e/apk/wb-switch-1.7.9.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.9/wb-switch-1.7.9.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.9/wb-switch-1.7.9.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.9/wb-switch-1.7.9.apk"
   ],
-  "size": 2129585,
-  "sha256": "90acb8ef6fc11eb86ddcf359d8a7108dc4be8c0b89bbdda20689cb88c0aa96f0",
-  "notes": "· 启动即上报一次，账号为空也发心跳：后台能看出设备装了、活着、什么版本\n· 设置页新增「立即上报一次」，上次成功/失败原因直接显示\n· 后台按设备去重：同一台机器只保留最新一份\n· 云端记录设备自述诊断（版本/桥是否通/地址是否配/开关状态）"
+  "size": 2130402,
+  "sha256": "1181e87fc7c4e571ed5afa763987f5792ba5b76d02b12be0d058937b49604b5e",
+  "notes": "· 主通道改回原生：当初 trycloudflare 那次成功走的就是原生 HttpURLConnection，\n  WebView 的 fetch 在部分 ROM 会被拦。现在原生+页面两条一起发，云端按设备去重\n· 新增启动打点：不管开关、不管有没有账号，打开就发一条，用来证明链路通不通\n· 修正老设备开关：1.7.2 的征询弹窗若点过「不发」，false 会永久留存，\n  之后改默认值也不生效。现在升级时一次性纠正为开\n· 页面拿不到上报地址时转交原生，不再静默放弃"
 }
