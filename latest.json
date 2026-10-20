@@ -1,14 +1,14 @@
 {
-  "versionCode": 25,
-  "versionName": "1.7.14",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e6331e5fbef99324d3b5bb5f5019745403e888fc/apk/wb-switch-1.7.14.apk",
+  "versionCode": 26,
+  "versionName": "1.7.15",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@5c70fb00ae5b141a4d3f268a8fd029b3f9371a26/apk/wb-switch-1.7.15.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e6331e5fbef99324d3b5bb5f5019745403e888fc/apk/wb-switch-1.7.14.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.14/wb-switch-1.7.14.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.14/wb-switch-1.7.14.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.14/wb-switch-1.7.14.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@5c70fb00ae5b141a4d3f268a8fd029b3f9371a26/apk/wb-switch-1.7.15.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.15/wb-switch-1.7.15.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.15/wb-switch-1.7.15.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.15/wb-switch-1.7.15.apk"
   ],
-  "size": 2132507,
-  "sha256": "782789cc08cb22d890d8be4309090285b9480f5ad43c99a22c1cada6a5415f32",
-  "notes": "· 新增「从网址导入」：粘贴下载地址，一点就进，不用再去下载目录里找文件\n  （之前最容易翻车的一步就是：下载到手机 → 文件管理器里找 → 选错文件选到图片，\n   选回来一堆 ICC_PROFILE 乱码，看着像 App 坏了）\n· 走原生通道下载，不走 WebView 的 fetch，vivo 上不会再被跨域掐掉\n· 空列表页直接放了这个按钮；设置 → 数据 里也有\n· 1.7.13 的修复还在：纯数组格式的 accounts.json 也能导入了"
+  "size": 2132680,
+  "sha256": "931c2cb59bb9d5c7ddaf805b11b13d6aaa10c27f11d9d57013304ef8df00f10a",
+  "notes": "· 修掉「后台永远 0 个账号」的真正根因：上报走的是 WorkManager，\n  vivo 等国产 ROM 的省电策略会把一次性任务无限期压住（前台也不放）。\n  心跳用裸线程所以每次都到，账号包走 WorkManager 所以一次都没到。\n  现在触发性上报直接开线程发，不再交给调度器。\n· 云端同步修：心跳包不再覆盖 accounts。以前 19 个账号上报成功之后，\n  紧接着的启动打点（0 账号）又把整份账号冲成空，看着像从没收到过。\n· 上报里加了 src / diag.full 标记，以后一眼看出是页面没同步还是发送被掐"
 }
