@@ -1,14 +1,14 @@
 {
-  "versionCode": 7,
-  "versionName": "1.4.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@73359d73b718795fadc29327e3044d3d66724d87/apk/wb-switch-1.4.0.apk",
+  "versionCode": 8,
+  "versionName": "1.4.1",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@163c999d2751d2b76cac88d8edbdece0033f4de6/apk/wb-switch-1.4.1.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@73359d73b718795fadc29327e3044d3d66724d87/apk/wb-switch-1.4.0.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.0/wb-switch-1.4.0.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@163c999d2751d2b76cac88d8edbdece0033f4de6/apk/wb-switch-1.4.1.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.1/wb-switch-1.4.1.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.1/wb-switch-1.4.1.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.4.1/wb-switch-1.4.1.apk"
   ],
-  "size": 1863750,
-  "sha256": "5d5f8df1d714072380e6b344a9a4d763095823e68a7c68c96f22a4e2f6f5c5c0",
-  "notes": "新增账号删除/备注/分组、统计页、额度与凭证到期提醒、后台定时签到、启动自动刷新"
+  "size": 1864604,
+  "sha256": "78558b10ed26c4eabc67b9a350b79a97a5a67f89a48328da23a4907106a140dd",
+  "notes": "修复中文输入法在搜索框被打断的问题；搜索防抖并只重绘列表；persist 写入合并 + 账号未变时跳过原生同步；清理无用样式"
 }
