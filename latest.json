@@ -1,14 +1,14 @@
 {
-  "versionCode": 21,
-  "versionName": "1.7.10",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@58e387c717c6d246e6a5c25266ff85b9f25481d0/apk/wb-switch-1.7.10.apk",
+  "versionCode": 22,
+  "versionName": "1.7.11",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d3e056de53f1e6e6f72e826c6b8616d06c618bcf/apk/wb-switch-1.7.11.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@58e387c717c6d246e6a5c25266ff85b9f25481d0/apk/wb-switch-1.7.10.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.10/wb-switch-1.7.10.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.10/wb-switch-1.7.10.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.10/wb-switch-1.7.10.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d3e056de53f1e6e6f72e826c6b8616d06c618bcf/apk/wb-switch-1.7.11.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.11/wb-switch-1.7.11.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.11/wb-switch-1.7.11.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.11/wb-switch-1.7.11.apk"
   ],
-  "size": 2130945,
-  "sha256": "b630ba22759e15186b6f47c5f64eb785c6211eeda462581237e3264abc805a33",
-  "notes": "· 应用内更新修好：清单改从 CloudBase 取（国内直连、无缓存），\n  以前只从 GitHub 镜像拉，镜像有缓存，发完新版手机上还显示「已是最新」\n· 多源竞速增加纠正：先到的清单先用，后到的源若带回更新版本会再纠正一次\n· 新增 tools/sync_manifest.py：发版后一条命令把清单同步到云端"
+  "size": 2131363,
+  "sha256": "d0a5d997b1a7c8630fbca92153a16fa1d2913d349ead648230a26ee2a7810d96",
+  "notes": "· 统一设备 ID：页面原先自己生成一个随机 ID，和原生的 ANDROID_ID 不是同一个，\n  同一台机器会在后台存成两条记录。现在页面直接复用原生的，永远只有一条\n· 首次真机验证通过：vivo V2338A 已上报，后台能看到设备型号和版本"
 }
