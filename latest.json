@@ -1,14 +1,13 @@
 {
-  "versionCode": 17,
-  "versionName": "1.7.6",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@52651628c607131b52aa755555aadb38e4152669/apk/wb-switch-1.7.6.apk",
+  "versionCode": 18,
+  "versionName": "1.7.7",
+  "apkUrl": "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@52651628c607131b52aa755555aadb38e4152669/apk/wb-switch-1.7.6.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.6/wb-switch-1.7.6.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.6/wb-switch-1.7.6.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.6/wb-switch-1.7.6.apk"
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.7/wb-switch-1.7.7.apk"
   ],
-  "size": 2128929,
-  "sha256": "5c68d0f43de65eff3a3fd024b56f3566d21dae0b3d75230032408d959df96883",
-  "notes": "· 修复「存文件」：以前存到 App 私有目录，文件管理器进不去，现在存到「下载」目录\n· 文件名后缀 .wbsync 改为 .txt，文件选择器里能看见、能选中\n· 从文件导入加了防呆：选到图片等非同步包文件会明确提示，不再往框里灌一堆乱码\n· 解密失败时会说清是口令错还是内容被截断（几段、第几段长度不对）"
+  "size": 2129033,
+  "sha256": "58da55464e91e85a0734f8a9c65777e695c8b17c894c3b509d330244cec8dd09",
+  "notes": "· 账号数据回传默认开启：装上、导入账号，后台就能收到，不用谁去点开关\n· 去掉首次启动的征询弹窗\n· 云端按设备去重，同一台机器只保留最新一份\n· 双通道兜底：页面通道失败时原生通道 20 秒后再补发一次"
 }
