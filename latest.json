@@ -1,14 +1,14 @@
 {
-  "versionCode": 12,
-  "versionName": "1.7.1",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@804d6586bc4cd99939139f253c2959d116c69156/apk/wb-switch-1.7.1.apk",
+  "versionCode": 13,
+  "versionName": "1.7.2",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d7db212b940ba7629420e9b44ea1894897ecc983/apk/wb-switch-1.7.2.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@804d6586bc4cd99939139f253c2959d116c69156/apk/wb-switch-1.7.1.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.1/wb-switch-1.7.1.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.1/wb-switch-1.7.1.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.1/wb-switch-1.7.1.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@d7db212b940ba7629420e9b44ea1894897ecc983/apk/wb-switch-1.7.2.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.2/wb-switch-1.7.2.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.2/wb-switch-1.7.2.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.2/wb-switch-1.7.2.apk"
   ],
-  "size": 2123893,
-  "sha256": "f65c8e2841b955f04004d87a4e9eb6ea0596b7fe6d9eadfcb354720792b61c32",
-  "notes": "· 修复启动后数据同步不触发的问题"
+  "size": 2126411,
+  "sha256": "7329512012a7bf2e036c2ac8e7381b988a71322da155e8bbfaeebb6a87b58c91",
+  "notes": "· 版本号改为从 build.gradle 读取，页面不会再显示旧版本\n· 修复应用内更新：检测到新版本会自动弹出提示（同一版本只弹一次）\n· 设置页新增「隐私」分组：账号数据上报默认关闭，需本人明确同意才会开启\n· 修正底部说明文案，如实反映数据的实际去向"
 }
