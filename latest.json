@@ -1,14 +1,14 @@
 {
-  "versionCode": 10,
-  "versionName": "1.6.0",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@1fe7484228c97d27e7d2405bff6432c2ccb6f99a/apk/wb-switch-1.6.0.apk",
+  "versionCode": 11,
+  "versionName": "1.7.0",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@c89b77a43c7ebd7eebd6d7416f61dabd1274b950/apk/wb-switch-1.7.0.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@1fe7484228c97d27e7d2405bff6432c2ccb6f99a/apk/wb-switch-1.6.0.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.6.0/wb-switch-1.6.0.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.6.0/wb-switch-1.6.0.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.6.0/wb-switch-1.6.0.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@c89b77a43c7ebd7eebd6d7416f61dabd1274b950/apk/wb-switch-1.7.0.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.0/wb-switch-1.7.0.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.0/wb-switch-1.7.0.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.0/wb-switch-1.7.0.apk"
   ],
-  "size": 2119228,
-  "sha256": "e908e8c8053fff902d1da768bf30dcc33de36ead9e8fadd340d7e3b2f5e63270",
-  "notes": "· 新增加密同步：口令加密后可在设备之间搬运，走微信/邮件/网盘都安全\n· AES-256-GCM + PBKDF2 十万轮，口令不保存、不随包传输\n· 可选「全部数据」或「仅账号」\n· 导入按账号 id 合并，本机备注与分组不会被冲掉\n· 同步包可复制、存文件，或生成二维码扫码带走"
+  "size": 2123475,
+  "sha256": "c315f2d1f866d31bd5374127190268a55dedd4d3f50a2e04c93907cd67e2af32",
+  "notes": "· 稳定性与同步体验优化"
 }
