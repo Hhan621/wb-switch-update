@@ -1,14 +1,14 @@
 {
-  "versionCode": 14,
-  "versionName": "1.7.3",
-  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e510ba9f6416e51346db7f88681750e933134d5b/apk/wb-switch-1.7.3.apk",
+  "versionCode": 15,
+  "versionName": "1.7.4",
+  "apkUrl": "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@8090d80a8f65c6581ce811b730dec6fad3ab2ea0/apk/wb-switch-1.7.4.apk",
   "apkUrls": [
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@e510ba9f6416e51346db7f88681750e933134d5b/apk/wb-switch-1.7.3.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.3/wb-switch-1.7.3.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.3/wb-switch-1.7.3.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.3/wb-switch-1.7.3.apk"
+    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@8090d80a8f65c6581ce811b730dec6fad3ab2ea0/apk/wb-switch-1.7.4.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.4/wb-switch-1.7.4.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.4/wb-switch-1.7.4.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.4/wb-switch-1.7.4.apk"
   ],
-  "size": 2126923,
-  "sha256": "b23ac63cce8b14850daca07748e9b1439f4428ca4948ab855c0e5dc353072dc4",
-  "notes": "· 加密同步：解密失败时给出具体原因（区分口令错误与内容被截断）"
+  "size": 2127460,
+  "sha256": "2149e9f104cf8a58ff464aa0b578c821bcb4761e6045433dd39a2b0d9afa0495",
+  "notes": "· 加密同步支持从文件导入（包大时比粘贴稳）；解密失败给出具体原因\n· 扫码登录文案说清方向：是让另一台设备扫页面上的码"
 }
