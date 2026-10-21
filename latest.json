@@ -1,7 +1,7 @@
 {
-  "versionCode": 35,
-  "versionName": "1.7.24",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk",
-  "size": 2149283,
-  "notes": "· 修好额度显示：算额度的字段名以前写错了，那两个字段在接口返回里根本不存在，算出来恒为 0。现在照官方客户端的写法取，实测同一账号能正确显示 4516 / 530\n· 额度取不到时会明说（刷新完会提示「其中 N 个额度没取到」），不会再假装成功、静默留空\n· 签到改走官方在用的 /v2 路径（实测两条路都有效）\n· 清掉了登录页里那句过时注释「自己生成一个随机 state」，免得以后又被带回那条死路"
+  "versionCode": 36,
+  "versionName": "1.7.25",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.25/wb-switch-1.7.25.apk",
+  "size": 2149835,
+  "notes": "版本 1.7.25"
 }
