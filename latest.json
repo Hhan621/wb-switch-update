@@ -1,7 +1,14 @@
 {
   "versionCode": 32,
   "versionName": "1.7.21",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.21/wb-switch-1.7.21.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.21.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.21.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.21/wb-switch-1.7.21.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.21/wb-switch-1.7.21.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.21/wb-switch-1.7.21.apk"
+  ],
   "size": 2142273,
-  "notes": "· 修掉「登录后一直转圈」：上一版误用了桌面 UA，登录页默认落「微信扫码登录」，二维码组件要连电脑上的微信端口，手机里连不上 → 白屏转圈；现在改回手机 UA\r\n· 打开登录页会自动切到「手机号」那栏，不用自己找\r\n· 登录成功后不会再被拽回登录页（之前会白登一次）\r\n· 新增第二套取凭证的办法：页面里的网络请求被 hook 住，凡是带凭证的响应都能截到，跟 state 那条路互相独立，任何一条通就行\r\n· 顶上加了「刷新」按钮，卡住了可以自己重来\r\n· 底部提示会实时显示服务端在等什么"
+  "sha256": "a073fdb957617592bb49741ad8261d74e8a96050d1c1ac924e04aea069af7b2d",
+  "notes": "· 修掉「登录后一直转圈」：上一版误用了桌面 UA，登录页默认落「微信扫码登录」，二维码组件要连电脑上的微信端口，手机里连不上 → 白屏转圈；现在改回手机 UA\n· 打开登录页会自动切到「手机号」那栏，不用自己找\n· 登录成功后不会再被拽回登录页（之前会白登一次）\n· 新增第二套取凭证的办法：页面里的网络请求被 hook 住，凡是带凭证的响应都能截到，跟 state 那条路互相独立，任何一条通就行\n· 顶上加了「刷新」按钮，卡住了可以自己重来\n· 底部提示会实时显示服务端在等什么"
 }
