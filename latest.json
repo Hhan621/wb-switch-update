@@ -1,14 +1,7 @@
 {
-  "versionCode": 33,
-  "versionName": "1.7.22",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.22.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.22.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.22/wb-switch-1.7.22.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.22/wb-switch-1.7.22.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.22/wb-switch-1.7.22.apk"
-  ],
-  "size": 2146097,
-  "sha256": "576aadbaa933b2534f43ec9bc9ea78e08ad5c08f1520e6e583bef9f0ed665a03",
-  "notes": "· 找到真正原因了：凭证不在 localStorage、也不在 Cookie，网页版把它放在 IndexedDB 里。这一版会把 IndexedDB 整个导出来找\n· 还会直接截页面自己发的 Authorization 头——只要页面是登录状态就一定能拿到\n· 页面停在「暂无企业账号」时不再傻等，会立刻导出数据找凭证\n· 不再自动把页面拉回登录页（上一版会，导致刚登录成功又被踢回去，白登一次）\n· 残留旧登录态时会自动点「重新登录」换账号，最多点两次\n· 自动点「手机号」那栏，不用自己找\n· 加了「刷新」按钮，卡住了可以清掉登录态重来"
+  "versionCode": 34,
+  "versionName": "1.7.23",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.23/wb-switch-1.7.23.apk",
+  "size": 2147122,
+  "notes": "· 换成了官方登录流程（从电脑上的 CodeBuddy 客户端里逆向出来的，不是猜的）\r\n· 以前一直失败的根因：登录用的 state 是我自己随机编的，服务端根本不认识，所以永远卡在「等待登录完成」。现在 state 由服务端下发\r\n· 登录页地址也是服务端给的，会自动带手机版参数\r\n· 凭证接口返回的是两层 data，以前只翻了一层，就算服务端给了 token 也认不出来——这个也修了\r\n· 登录成功后还会去拉一次账号信息（昵称/邮箱），拉不到也不影响\r\n· 原来那几套兜底（IndexedDB 导出、截 Authorization 头）都留着，任何一条通就算成功"
 }
