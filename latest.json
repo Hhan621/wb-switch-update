@@ -1,14 +1,14 @@
 {
-  "versionCode": 34,
-  "versionName": "1.7.23",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.23.apk",
+  "versionCode": 35,
+  "versionName": "1.7.24",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.24.apk",
   "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.23.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.23/wb-switch-1.7.23.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.23/wb-switch-1.7.23.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.23/wb-switch-1.7.23.apk"
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.24.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk"
   ],
-  "size": 2147122,
-  "sha256": "19f920fb76927d64a99c6c31dc234b4b8990356cb5ff62e7e71e2a81b5e45a9a",
-  "notes": "· 换成了官方登录流程（从电脑上的 CodeBuddy 客户端里逆向出来的，不是猜的）\n· 以前一直失败的根因：登录用的 state 是我自己随机编的，服务端根本不认识，所以永远卡在「等待登录完成」。现在 state 由服务端下发\n· 登录页地址也是服务端给的，会自动带手机版参数\n· 凭证接口返回的是两层 data，以前只翻了一层，就算服务端给了 token 也认不出来——这个也修了\n· 登录成功后还会去拉一次账号信息（昵称/邮箱），拉不到也不影响\n· 原来那几套兜底（IndexedDB 导出、截 Authorization 头）都留着，任何一条通就算成功"
+  "size": 2149283,
+  "sha256": "d2ce021027cddf68576c60aa3d43c7d8de8056fb5bcffc0fdf21a7f950a917ad",
+  "notes": "· 修好额度显示：算额度的字段名以前写错了，那两个字段在接口返回里根本不存在，算出来恒为 0。现在照官方客户端的写法取，实测同一账号能正确显示 4516 / 530\n· 额度取不到时会明说（刷新完会提示「其中 N 个额度没取到」），不会再假装成功、静默留空\n· 签到改走官方在用的 /v2 路径（实测两条路都有效）\n· 清掉了登录页里那句过时注释「自己生成一个随机 state」，免得以后又被带回那条死路"
 }
