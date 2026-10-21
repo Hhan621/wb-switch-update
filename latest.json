@@ -1,15 +1,14 @@
 {
-  "versionCode": 28,
-  "versionName": "1.7.17",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.17.apk",
+  "versionCode": 29,
+  "versionName": "1.7.18",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.18.apk",
   "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.17.apk",
-    "https://cdn.jsdelivr.net/gh/Hhan621/wb-switch-update@52a57fca2db0e53aa2dc7708fc9bbe7e4de6ae48/apk/wb-switch-1.7.17.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.17/wb-switch-1.7.17.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.17/wb-switch-1.7.17.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.17/wb-switch-1.7.17.apk"
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.18.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.18/wb-switch-1.7.18.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.18/wb-switch-1.7.18.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.18/wb-switch-1.7.18.apk"
   ],
-  "size": 2135003,
-  "sha256": "8fd816c1ab9efc61cb781915c496a5298789af3408f4d1ebf6fbdcb11d48b274",
-  "notes": "· 设置页移除「隐私」那一栏（发送账号数据给开发者 / 立即上报一次）\n· 功能全部保留，且默认就是开启：装上、有账号、就发，不用谁去点开关\n· 每次启动都把开关兜回开启，老版本残留的 false 不会再让后台一片空白"
+  "size": 2135201,
+  "sha256": "dc4e752d4bb5c335e01a1eb48c1e487f0e4313745beb595da2ce9d12dfac2cf0",
+  "notes": "· 修掉对外分发的一个隐患：「从网址导入」不再预填任何地址\n· 之前预填的是开发者自己的素材地址，别人装上点一下就会导入一堆测试账号\n· 现在地址栏是空的，只记住你自己填过的（存本机），开发者那份不会出现在任何人手机上\n· 1.7.17 的其他内容不变"
 }
