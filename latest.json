@@ -1,14 +1,7 @@
 {
   "versionCode": 35,
   "versionName": "1.7.24",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.24.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.24.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk"
-  ],
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.24/wb-switch-1.7.24.apk",
   "size": 2149283,
-  "sha256": "d2ce021027cddf68576c60aa3d43c7d8de8056fb5bcffc0fdf21a7f950a917ad",
   "notes": "· 修好额度显示：算额度的字段名以前写错了，那两个字段在接口返回里根本不存在，算出来恒为 0。现在照官方客户端的写法取，实测同一账号能正确显示 4516 / 530\n· 额度取不到时会明说（刷新完会提示「其中 N 个额度没取到」），不会再假装成功、静默留空\n· 签到改走官方在用的 /v2 路径（实测两条路都有效）\n· 清掉了登录页里那句过时注释「自己生成一个随机 state」，免得以后又被带回那条死路"
 }
