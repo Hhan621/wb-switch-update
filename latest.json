@@ -1,14 +1,14 @@
 {
-  "versionCode": 30,
-  "versionName": "1.7.19",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.19.apk",
+  "versionCode": 31,
+  "versionName": "1.7.20",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.20.apk",
   "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.19.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.19/wb-switch-1.7.19.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.19/wb-switch-1.7.19.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.19/wb-switch-1.7.19.apk"
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.20.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.20/wb-switch-1.7.20.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.20/wb-switch-1.7.20.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.20/wb-switch-1.7.20.apk"
   ],
-  "size": 2138322,
-  "sha256": "6a7dc685f86ec3b2cadbaaa221c88b11bbef18d19fa5cc874598e9b083daa5f0",
-  "notes": "· 修好手机号验证码登录：以前抓页面存储拿凭证，现在这个站点根本不往那里放，所以总提示「没拿到凭证」\n· 改成官方正路（和电脑版 WorkBuddy Switch 一样）：登录页带一个随机 state，登录成功后凭 state 把 token 换回来\n· 登录成功会自动返回并添加，不用再点「完成」\n· 万一那条路不通，仍会退回原来的抓取方式，两条都不行才会提示"
+  "size": 2140559,
+  "sha256": "7a2e7e9da4db30b042768699fdfa47db78ce2ea1aee00a9097b732737e9b139d",
+  "notes": "· 删掉「扫码登录」入口（那个是微信扫码授权，必须用另一台设备的微信扫，手机自己扫不了自己）\n· 修登录页被顶到控制台的问题：打开前会清掉 WebView 里的旧登录态，保证进的是干净的登录页\n· 万一还是被跳走，会自动拉回登录页（最多 3 次）\n· 底部那行字现在会显示服务端到底在等什么，卡住能一眼看出原因\n· 加了一层兜底：就算字段名对不上，也会从原始响应里再解析一遍凭证"
 }
