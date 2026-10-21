@@ -1,7 +1,14 @@
 {
   "versionCode": 33,
   "versionName": "1.7.22",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.22/wb-switch-1.7.22.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.22.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.22.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.22/wb-switch-1.7.22.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.22/wb-switch-1.7.22.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.22/wb-switch-1.7.22.apk"
+  ],
   "size": 2146097,
-  "notes": "· 找到真正原因了：凭证不在 localStorage、也不在 Cookie，网页版把它放在 IndexedDB 里。这一版会把 IndexedDB 整个导出来找\r\n· 还会直接截页面自己发的 Authorization 头——只要页面是登录状态就一定能拿到\r\n· 页面停在「暂无企业账号」时不再傻等，会立刻导出数据找凭证\r\n· 不再自动把页面拉回登录页（上一版会，导致刚登录成功又被踢回去，白登一次）\r\n· 残留旧登录态时会自动点「重新登录」换账号，最多点两次\r\n· 自动点「手机号」那栏，不用自己找\r\n· 加了「刷新」按钮，卡住了可以清掉登录态重来"
+  "sha256": "576aadbaa933b2534f43ec9bc9ea78e08ad5c08f1520e6e583bef9f0ed665a03",
+  "notes": "· 找到真正原因了：凭证不在 localStorage、也不在 Cookie，网页版把它放在 IndexedDB 里。这一版会把 IndexedDB 整个导出来找\n· 还会直接截页面自己发的 Authorization 头——只要页面是登录状态就一定能拿到\n· 页面停在「暂无企业账号」时不再傻等，会立刻导出数据找凭证\n· 不再自动把页面拉回登录页（上一版会，导致刚登录成功又被踢回去，白登一次）\n· 残留旧登录态时会自动点「重新登录」换账号，最多点两次\n· 自动点「手机号」那栏，不用自己找\n· 加了「刷新」按钮，卡住了可以清掉登录态重来"
 }
