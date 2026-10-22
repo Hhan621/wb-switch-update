@@ -1,7 +1,14 @@
 {
   "versionCode": 40,
   "versionName": "1.8.0",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.0/wb-switch-1.8.0.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.0.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.0.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.0/wb-switch-1.8.0.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.0/wb-switch-1.8.0.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.0/wb-switch-1.8.0.apk"
+  ],
   "size": 2206629,
-  "notes": "· 自我对抗审查：四轮探针砸出 40 条问题、修了 34 条，逐条写在 docs/self-review.md\r\n· 修了三个会让页面直接打不开的问题：账号分组是数字时账号页白屏、后台日志里混进脏记录时面板打不开、从备份恢复时字段类型不对\r\n· 修了登录兜底：登录页凭证字段名对不上时的「深挖一遍」路径以前是死的（从来没生效过），现在能用了\r\n· 凭证脱敏补全：URL 里的 ?token=、本项目自己在用的 X-Refresh-Token 头、诊断报告里的错误类型字段，以前都会原样带出去\r\n· 静默刷新（打开 App / 限流后自动补刷）不再弹每周健康汇总，只有手动点刷新才发\r\n· 额度包明细：能看到每个包还剩多少、什么时候到期、先扣哪个\r\n· 手机上续的期能带回电脑了：设置 →「回灌到电脑」；反过来从电脑导入时，也不会再用旧凭证盖掉手机上新的那份\r\n· 每周健康汇总：一周一次汇总「额度将尽 / 凭证将过期 / 签到断开」，一切正常时不发通知\r\n· 额度掉得快会提醒、限流后自动补刷、刷新不再连点翻倍\r\n· 移除了 1.7.27 的「Token 用量」：那个数是按本地差值估算的，跟桌面端口径不等价，宁可不显示"
+  "sha256": "0d5a99627fd22cdf7fb1ab11455e3939d0dcd85fb91371736a4f07bd9e9d0170",
+  "notes": "· 自我对抗审查：四轮探针砸出 40 条问题、修了 34 条，逐条写在 docs/self-review.md\n· 修了三个会让页面直接打不开的问题：账号分组是数字时账号页白屏、后台日志里混进脏记录时面板打不开、从备份恢复时字段类型不对\n· 修了登录兜底：登录页凭证字段名对不上时的「深挖一遍」路径以前是死的（从来没生效过），现在能用了\n· 凭证脱敏补全：URL 里的 ?token=、本项目自己在用的 X-Refresh-Token 头、诊断报告里的错误类型字段，以前都会原样带出去\n· 静默刷新（打开 App / 限流后自动补刷）不再弹每周健康汇总，只有手动点刷新才发\n· 额度包明细：能看到每个包还剩多少、什么时候到期、先扣哪个\n· 手机上续的期能带回电脑了：设置 →「回灌到电脑」；反过来从电脑导入时，也不会再用旧凭证盖掉手机上新的那份\n· 每周健康汇总：一周一次汇总「额度将尽 / 凭证将过期 / 签到断开」，一切正常时不发通知\n· 额度掉得快会提醒、限流后自动补刷、刷新不再连点翻倍\n· 移除了 1.7.27 的「Token 用量」：那个数是按本地差值估算的，跟桌面端口径不等价，宁可不显示"
 }
