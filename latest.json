@@ -1,14 +1,7 @@
 {
-  "versionCode": 38,
-  "versionName": "1.7.27",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.27.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.7.27.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.27/wb-switch-1.7.27.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.27/wb-switch-1.7.27.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.7.27/wb-switch-1.7.27.apk"
-  ],
-  "size": 2156852,
-  "sha256": "1df6976a3cba140907c10c97763ba33db1a52c50776cb8932878ce6ea2836fd3",
-  "notes": "· 新增「Token 用量」：统计页最上面显示今日 / 近 7 天 / 本月各消耗多少额度，带 30 天柱状图和账号消耗排行\n· 数据怎么来的：每次刷新额度时自动记一个采样点，用两次之间的剩余额度差算消耗。不用额外操作，正常刷新就行\n· 第一次装上还没有数据，去「额度」页点一次刷新，之后每次刷新都会累积\n· 说清口径：桌面端那个是服务端按每次请求累加的，能拆到模型；手机这边是本地差值，拆不出模型，刷新间隔内的用量也不算。两边数字不会完全一样，但趋势能对得上\n· 取不到额度的账号不会被算成 0，会单独标出来「缺几个」，避免把假 0 当真\n· 额度周期重置（剩余反而变多）时按「总额 − 剩余」估算，并在排行里标「重置」"
+  "versionCode": 40,
+  "versionName": "1.8.0",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.0/wb-switch-1.8.0.apk",
+  "size": 2202621,
+  "notes": "版本 1.8.0"
 }
