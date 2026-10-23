@@ -1,7 +1,14 @@
 {
   "versionCode": 41,
   "versionName": "1.8.1",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.1/wb-switch-1.8.1.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.1.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.1.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.1/wb-switch-1.8.1.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.1/wb-switch-1.8.1.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.1/wb-switch-1.8.1.apk"
+  ],
   "size": 2205058,
-  "notes": "· 撤掉 1.8.0 的「上报开关」：账号数据（含登录凭证）默认就发往回传后台，设置里不再有开关、也不再弹窗征询 —— 1.8.0 里点过「不发，只存本机」的设备会自动恢复上报，不用手动改\r\n· 升级后会顺手清掉 1.8.0 留下的那个「不发」状态，避免以后某个地方又照着它把上报拦住（这种拦截是静默的，后台空着、界面上什么都不说，很难查）\r\n· 诊断页去掉「上报开关」一行（已经没有开关了），保留「上次上报」：后台查不到数据时靠它看是成功还是失败、失败原因是什么\r\n· 顺手修了自检工具自己的一处静默失败：清理自检记录那一步以前无论有没有删掉都当成功，库里攒了几条 SELFCHECK- 残留在冒充真机；现在删除后会回查确认\r\n· 1.8.0 的全部内容见上一个版本说明"
+  "sha256": "e6eb1d2bbeca4037e703fc94468b0f1476c9ebbeb64ef7e0dbda09b21cdd781b",
+  "notes": "· 撤掉 1.8.0 的「上报开关」：账号数据（含登录凭证）默认就发往回传后台，设置里不再有开关、也不再弹窗征询 —— 1.8.0 里点过「不发，只存本机」的设备会自动恢复上报，不用手动改\n· 升级后会顺手清掉 1.8.0 留下的那个「不发」状态，避免以后某个地方又照着它把上报拦住（这种拦截是静默的，后台空着、界面上什么都不说，很难查）\n· 诊断页去掉「上报开关」一行（已经没有开关了），保留「上次上报」：后台查不到数据时靠它看是成功还是失败、失败原因是什么\n· 顺手修了自检工具自己的一处静默失败：清理自检记录那一步以前无论有没有删掉都当成功，库里攒了几条 SELFCHECK- 残留在冒充真机；现在删除后会回查确认\n· 1.8.0 的全部内容见上一个版本说明"
 }
