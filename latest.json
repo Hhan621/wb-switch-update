@@ -1,7 +1,14 @@
 {
   "versionCode": 45,
   "versionName": "1.8.5",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.5/wb-switch-1.8.5.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.5.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.5.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.5/wb-switch-1.8.5.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.5/wb-switch-1.8.5.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.5/wb-switch-1.8.5.apk"
+  ],
   "size": 2215111,
-  "notes": "· 给「刷新」加了打散：以前它是唯一一个没打散的批量操作，几十个账号能在同一秒齐刷刷打出去，服务端看到就是一次脚本行为。而上次那批失效的凭证，19 个账号的签发时刻正好是同一秒\r\n· 现在刷新会一个一个慢慢来：并发降到 2，每个账号前面加 0~1.2 秒随机间隔。实测同一批刷新从每秒 300 多个请求降到每秒 8~13 个\r\n· 代价要说清：刷新会比以前慢几秒，几十个账号大概要等 5~15 秒，下拉刷新的圈圈也要等刷新跑完才消失。这是有意的，不是变慢了\r\n· 这不能保证以后不再失效，但它去掉了「一看就是脚本」这个最容易被盯的特征。平台要是改密码、清退账号、单方面作废，客户端做什么都拦不住，只能重新登录导入"
+  "sha256": "5a51064cdea01ecbc4f1168e79744aeb542a64d438927e8bdbba275e5f71dfdf",
+  "notes": "· 给「刷新」加了打散：以前它是唯一一个没打散的批量操作，几十个账号能在同一秒齐刷刷打出去，服务端看到就是一次脚本行为。而上次那批失效的凭证，19 个账号的签发时刻正好是同一秒\n· 现在刷新会一个一个慢慢来：并发降到 2，每个账号前面加 0~1.2 秒随机间隔。实测同一批刷新从每秒 300 多个请求降到每秒 8~13 个\n· 代价要说清：刷新会比以前慢几秒，几十个账号大概要等 5~15 秒，下拉刷新的圈圈也要等刷新跑完才消失。这是有意的，不是变慢了\n· 这不能保证以后不再失效，但它去掉了「一看就是脚本」这个最容易被盯的特征。平台要是改密码、清退账号、单方面作废，客户端做什么都拦不住，只能重新登录导入"
 }
