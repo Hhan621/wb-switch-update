@@ -1,14 +1,7 @@
 {
-  "versionCode": 43,
-  "versionName": "1.8.3",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.3.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.3.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.3/wb-switch-1.8.3.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.3/wb-switch-1.8.3.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.3/wb-switch-1.8.3.apk"
-  ],
-  "size": 2214200,
-  "sha256": "071d1d34593d41c19294a360a4cceebe8864ca34a45a8ca85d1f5d2ca43da3b4",
-  "notes": "· 补上了「凭证体检」：不用等刷新，统计页 → 健康汇总 → 点「立即体检凭证」，会挨个去问服务端这些账号还认不认，谁废了一目了然\n· 体检时自己能续上的不算失效（access_token 到期很正常），续上了服务端还是不认才算真废；网络不通或服务端 5xx 一律判「未知」，绝不在地铁里点一次就把账号全标红\n· 修了「今日已签」会说谎：以前看的是上次拉取时服务端给的答案，昨天签过的账号今天打开还显示「已签到」，容易漏签。现在跨天就作废，显示「今天还没确认」\n· 账号卡片上的额度会标出是哪天取的（超过一天才标，比如「取于 5 天前」）。以前刚刷的和五天前的一模一样，分不出来\n· 修了健康数会算成负数：一个账号同时踩中额度告急、凭证将过期、断签时会显示「-2 个健康」\n· 升级后第一次打开，签到页会显示「今天还没确认」，点一下「拉取状态」就恢复 —— 老版本存的签到状态没有时间戳，不知道是哪天的，不能拿来冒充今天"
+  "versionCode": 44,
+  "versionName": "1.8.4",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.4/wb-switch-1.8.4.apk",
+  "size": 2214649,
+  "notes": "· 修了「凭证体检」的入口点不开：设置页「每周健康汇总」那行副标题写着能在这里体检，但它其实只是个开关，点了没反应。现在整行可以点进去，点右边的开关仍然只切开关\r\n· 统计页那行摘要改成不管什么情况都带「体检」两个字。以前只在已经查出失效账号时才提，可那正是最需要体检、还没查出来的时候\r\n· 找体检的路：底部「统计」页往下翻 →「每周健康汇总」→ 点进去 → 最下面「立即体检凭证（挨个问服务端）」；设置页「每周健康汇总」那行现在也能点进去\r\n· 上一版（1.8.3）的内容都在：体检能自己续上的不算失效，断网或服务端出错绝不把账号标红；「今日已签」不再跨天说谎；卡片额度标出是哪天取的；健康数不会再算成负数"
 }
