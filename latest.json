@@ -1,14 +1,7 @@
 {
-  "versionCode": 42,
-  "versionName": "1.8.2",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.2.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.2.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.2/wb-switch-1.8.2.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.2/wb-switch-1.8.2.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.2/wb-switch-1.8.2.apk"
-  ],
-  "size": 2209115,
-  "sha256": "9d7e5a2fb31ead22bd2a1344551e62434662dfda431c79bf2add84b49b57f422",
-  "notes": "· 修了「凭证已经废了但 App 说没事」：以前只按本地那个到期日期判断，而那个日期是登录时算的，服务端一旦把凭证作废它就不管用了。实测后台 19 个账号里 16 个已经被服务端拒绝，界面上却还写着「凭证 23 天」、一个告警都没有\n· 现在服务端不认、且用 refresh_token 也续不动的账号，会被标记为「凭证已失效」并一直留着，不会随刷新的提示一起消失\n· 新增「凭证已失效」筛选，和「凭证将过期」分开 —— 前者只能重新登录导入，后者 App 自己能续期，两个动作完全不同\n· 账号卡片、详情页、每周健康汇总、通知都会点名这些账号；详情页会把服务端返回的原因写出来，并说明「那两个到期日期是登录时算的，不代表服务端现在还认」\n· 账号恢复之后标记会自动清除（不会变成终身标签）；导入一份新凭证也会清掉\n· 排查工具：NODE_PATH=node_modules node tools/_probe_credexp.js 可直接体检这批账号在官方还认不认（只读，不会动手机上那份凭证）"
+  "versionCode": 43,
+  "versionName": "1.8.3",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.3/wb-switch-1.8.3.apk",
+  "size": 2214200,
+  "notes": "版本 1.8.3"
 }
