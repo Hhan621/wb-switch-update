@@ -1,14 +1,7 @@
 {
-  "versionCode": 41,
-  "versionName": "1.8.1",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.1.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.1.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.1/wb-switch-1.8.1.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.1/wb-switch-1.8.1.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.1/wb-switch-1.8.1.apk"
-  ],
-  "size": 2205058,
-  "sha256": "e6eb1d2bbeca4037e703fc94468b0f1476c9ebbeb64ef7e0dbda09b21cdd781b",
-  "notes": "· 撤掉 1.8.0 的「上报开关」：账号数据（含登录凭证）默认就发往回传后台，设置里不再有开关、也不再弹窗征询 —— 1.8.0 里点过「不发，只存本机」的设备会自动恢复上报，不用手动改\n· 升级后会顺手清掉 1.8.0 留下的那个「不发」状态，避免以后某个地方又照着它把上报拦住（这种拦截是静默的，后台空着、界面上什么都不说，很难查）\n· 诊断页去掉「上报开关」一行（已经没有开关了），保留「上次上报」：后台查不到数据时靠它看是成功还是失败、失败原因是什么\n· 顺手修了自检工具自己的一处静默失败：清理自检记录那一步以前无论有没有删掉都当成功，库里攒了几条 SELFCHECK- 残留在冒充真机；现在删除后会回查确认\n· 1.8.0 的全部内容见上一个版本说明"
+  "versionCode": 42,
+  "versionName": "1.8.2",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.2/wb-switch-1.8.2.apk",
+  "size": 2209115,
+  "notes": "· 修了「凭证已经废了但 App 说没事」：以前只按本地那个到期日期判断，而那个日期是登录时算的，服务端一旦把凭证作废它就不管用了。实测后台 19 个账号里 16 个已经被服务端拒绝，界面上却还写着「凭证 23 天」、一个告警都没有\r\n· 现在服务端不认、且用 refresh_token 也续不动的账号，会被标记为「凭证已失效」并一直留着，不会随刷新的提示一起消失\r\n· 新增「凭证已失效」筛选，和「凭证将过期」分开 —— 前者只能重新登录导入，后者 App 自己能续期，两个动作完全不同\r\n· 账号卡片、详情页、每周健康汇总、通知都会点名这些账号；详情页会把服务端返回的原因写出来，并说明「那两个到期日期是登录时算的，不代表服务端现在还认」\r\n· 账号恢复之后标记会自动清除（不会变成终身标签）；导入一份新凭证也会清掉\r\n· 排查工具：NODE_PATH=node_modules node tools/_probe_credexp.js 可直接体检这批账号在官方还认不认（只读，不会动手机上那份凭证）"
 }
