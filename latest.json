@@ -1,7 +1,14 @@
 {
   "versionCode": 50,
   "versionName": "1.8.10",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.10/wb-switch-1.8.10.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.10.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.10.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.10/wb-switch-1.8.10.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.10/wb-switch-1.8.10.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.10/wb-switch-1.8.10.apk"
+  ],
   "size": 2224440,
-  "notes": "额度页/详情页新增「下次回血」预测；首屏新增「今天该做什么」；额度告急的号直接给出下一步（去签到/换哪个号用）。数据取不到就不显示，绝不猜日期。"
+  "sha256": "cb09ff71970e6b88d1171bb276cf48cca199cbd079904b56b3c86de25c3f36fa",
+  "notes": "· 额度页和详情页加了「下次回血」：额度包很多是周期重置的，什么时候自动补回来、补多少，现在直接告诉你。撑不到回血那天会明说「按现在速度撑不到那天」\n· 首屏加了「今天该做什么」：先说该先用哪个号（快到期的额度包不用就作废了），没事就用就提醒还有几个号没签到\n· 额度告急的号会给出「下一步」：去签到（唯一凭空多拿分的动作）或换哪个号用（只推荐自己也健康的号），不再是只报一个「剩 1%」的坏数字\n· 以上都是官方数据里存着但界面从没用过的字段，取不到数据就一个字不显示，绝不猜日期"
 }
