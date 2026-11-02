@@ -1,14 +1,7 @@
 {
-  "versionCode": 46,
-  "versionName": "1.8.6",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.6.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.6.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.6/wb-switch-1.8.6.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.6/wb-switch-1.8.6.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.6/wb-switch-1.8.6.apk"
-  ],
-  "size": 2216382,
-  "sha256": "bba0ee9ca591c370405a956176f43aff258744a846398f97d059de9f20efd828",
-  "notes": "· 凭证失效不再只报「续期失败」四个字：现在会把服务端返回的原话显示出来，并说明为什么界面上还写着剩很多天却已经不能用了（那个日期是登录时在本地算的，服务端随时可以不认）\n· 补上了最常见的原因：同一个账号在别的设备上重新登录或自动续过一次，换票会把这份换掉\n· 体检报告里加了双端互踢的提示 —— 电脑上 WorkBuddy 也登同一个账号的话两边会互相踢下线，同一账号建议只在一边用（这条是从桌面端源码里读出来的，不是猜的）\n· 不含功能改动，只是把话说清楚"
+  "versionCode": 47,
+  "versionName": "1.8.7",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.7/wb-switch-1.8.7.apk",
+  "size": 2217291,
+  "notes": "版本 1.8.7"
 }
