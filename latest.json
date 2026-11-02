@@ -1,14 +1,7 @@
 {
-  "versionCode": 48,
-  "versionName": "1.8.8",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.8.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.8.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.8/wb-switch-1.8.8.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.8/wb-switch-1.8.8.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.8/wb-switch-1.8.8.apk"
-  ],
-  "size": 2217913,
-  "sha256": "2f71f4ea3a18e3c79a1e65948d565cc57fc5eb0b54f619dad1976df45acdb8f1",
-  "notes": "· 额度页以前会写「约 2034年5月14日耗尽」这种数 —— 那是拿几天的消耗速度直线推好几年，中间随便充一次值就作废了。现在一年以上统一说「一年以上才耗尽」，不再编具体日期\n· 额度页「N 个 7 天内耗尽」的数字算错了：把 18 天后才用完的号也数了进去。现在只数真正 7 天内的\n· 设置页「每周健康汇总」「自动备份」两行的说明折成了两行，还把「体检凭证」拆成「体检完 / 证」。已改短，整页每行一样高\n· 签到页「今天还没确认」那行只写到「点一下确认今天」，读着像半句话，现在补全成「点一下确认今天签没签」\n· 统计页成功率满分时显示「100 %」，不再是「100.0 %」"
+  "versionCode": 49,
+  "versionName": "1.8.9",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.9/wb-switch-1.8.9.apk",
+  "size": 2221074,
+  "notes": "版本 1.8.9"
 }
