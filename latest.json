@@ -1,7 +1,14 @@
 {
   "versionCode": 47,
   "versionName": "1.8.7",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.7/wb-switch-1.8.7.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.7.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.7.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.7/wb-switch-1.8.7.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.7/wb-switch-1.8.7.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.7/wb-switch-1.8.7.apk"
+  ],
   "size": 2217297,
-  "notes": "版本 1.8.7"
+  "sha256": "20a7b3b8b75279c129ab209c5faaae52ea4c44265c5652c5df7f3e0d443a206e",
+  "notes": "· 修好了账号卡片底部那一行：以前「凭证 2 天到期」会被折成「凭证 2 天到 / 期」，那张卡比别的卡高一截\n· 状态标签不再折行；余额永远优先显示，超长时从尾巴截断\n· 30 天以上的「约某年某月某日耗尽」从卡片移到详情页（详情页照旧看得见）—— 那个数本来就是线性外推，越远越不准，而「凭证 2 天到期」是要马上处理的，挤在一起时被牺牲的反而是它\n· 详情页「预计耗尽」不再重复写两遍「耗尽」\n· 卡片上的「取于 3 天前」补了空格，跟额度页写法统一"
 }
