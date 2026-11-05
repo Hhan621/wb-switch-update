@@ -1,7 +1,14 @@
 {
   "versionCode": 51,
   "versionName": "1.8.11",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.11/wb-switch-1.8.11.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.11.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.11.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.11/wb-switch-1.8.11.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.11/wb-switch-1.8.11.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.11/wb-switch-1.8.11.apk"
+  ],
   "size": 2225093,
-  "notes": "额度页改成按最快耗尽排序；健康汇总弹窗瘦身（没问题的类别收成一行小字）。"
+  "sha256": "3b2aa1a118aa4ed31a1f6e5ebda9405c2d9f4443776874713cab524b36868804",
+  "notes": "· 额度页改成按「最快耗尽」排序：今天耗尽的号排第一，不再被剩余多的号压在底下\n· 健康汇总弹窗瘦身：没有问题的类别收成一行小字，要处理的两类一眼看到，不用再滚动\n· 双端互踢等解释文字只在真出现该问题时才显示"
 }
