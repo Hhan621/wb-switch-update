@@ -1,14 +1,7 @@
 {
-  "versionCode": 52,
-  "versionName": "1.8.12",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.12.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.12.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.12/wb-switch-1.8.12.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.12/wb-switch-1.8.12.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.12/wb-switch-1.8.12.apk"
-  ],
-  "size": 2225938,
-  "sha256": "6390d567435964e212017097e02f36c771225d3355f11db9cf9cda33a3b6ae9e",
-  "notes": "· 修了一批\"一条坏数据废掉一页\"的崩溃：手工编辑过的导入/备份 JSON 里混了空条目时，账号页、额度页、统计页可能整个白屏（压测实测 6 处），现在入口统一剔掉、渲染层再兜一道\n· 修设备标识退化为全零的问题：个别 ROM 的 ANDROID_ID 是全零，两台这样的设备会在后台混成一条记录；已存的全零标识会在升级后自动重生成\n· 300+ 次连续渲染压测：零异常、节点数稳定、无泄漏"
+  "versionCode": 53,
+  "versionName": "1.8.13",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.13/wb-switch-1.8.13.apk",
+  "size": 2227651,
+  "notes": "· 新增每日签到提醒：有号今天没签到就通知你，每天最多一条（设置里可关）。只提醒确认过没签的号\n· 一键全签后能看到今天真赚了多少分\n· 额度告急时，若回血早于耗尽会明说可以先不换\n· 修 toast 被压成半屏、文案被挤成三行的排版问题"
 }
