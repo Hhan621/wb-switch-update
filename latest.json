@@ -1,7 +1,14 @@
 {
-  "versionCode": 55,
-  "versionName": "1.8.15",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.15/wb-switch-1.8.15.apk",
-  "size": 2232077,
-  "notes": "· 设置页顶部新增常驻版本号：进设置第一眼就能看到「v1.8.15 · 内部版本 55」，不用再猜手机上装的是哪一版\n· 更新清单地址新增「测试连接」：连不上、404、不是清单、缺版本号都会直接说清楚，填错地址不再静默失效\n· 修复设置页两个输入框在深色主题下显示成一块亮白的问题，7 套主题统一\n· 工程侧：几处写死的 node 路径改成自动探测，测试不再把「没带钥匙」误报成后台坏了"
+  "versionCode": 54,
+  "versionName": "1.8.14",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.14.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.14.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.14/wb-switch-1.8.14.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.14/wb-switch-1.8.14.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.14/wb-switch-1.8.14.apk"
+  ],
+  "size": 2230443,
+  "sha256": "da50e75ff5c16be2baeb95b394ab2382e1921b2c2662fa301db8c91a1c30d964",
+  "notes": "· 新增 7 套主题风格：经典浅色/深色、极光玻璃、深海蓝、抹茶绿、暖纸白、暮光紫，在「设置 → 外观 → 主题风格」随时切换\n· 极光玻璃：淡青淡紫渐变背景、半透白卡片、磨砂效果和更大的签到数字，参考你给的界面风格\n· 修复部分主题按钮白字看不清的问题，7 套主题按钮对比度均通过实测\n· 原来的主题选择保持不变，升级后不会强制改变你正在用的界面"
 }
