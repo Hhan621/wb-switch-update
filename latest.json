@@ -1,7 +1,14 @@
 {
   "versionCode": 56,
   "versionName": "1.8.16",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.16/wb-switch-1.8.16.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.16.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.16.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.16/wb-switch-1.8.16.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.16/wb-switch-1.8.16.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.16/wb-switch-1.8.16.apk"
+  ],
   "size": 2234701,
+  "sha256": "3f445c6005febe5f0c5454e4e84e309edbca04a46ccb6122e7a70d92263de8a7",
   "notes": "· 凭证自动体检：每 12 小时最多自动问一次服务端「这份凭证你还认吗」，不用再自己去点；查出已失效才通知，同一批账号 20 小时内不重复弹\n· 全都没联上不算体检过：地铁里被打断不会把账号记成「刚查过」，下次启动自动重试\n· 能被自动续期的当场续好，报「已续期」，不会误报成失效\n· 设置 → 每周健康汇总下方新增「凭证自动体检」，点整行可立刻手动催一次"
 }
