@@ -1,14 +1,7 @@
 {
-  "versionCode": 61,
-  "versionName": "1.8.21",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.21.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.21.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.21/wb-switch-1.8.21.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.21/wb-switch-1.8.21.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.21/wb-switch-1.8.21.apk"
-  ],
-  "size": 2239757,
-  "sha256": "e527fa392e438fcde1ecd931653ac56efa7af5da805e11d85a3527a1552c384f",
-  "notes": "· 修几个「看起来正常、其实没生效」的地方：开启每日自动签到时如果排程失败，以前界面上照样显示已开启，实际第二天不会跑 —— 现在会明确提示失败并记进诊断日志\n· 改签到时间后排程失败同样会留痕，不再出现「界面显示新时间、实际还是旧时间」\n· 上报状态清理失败会记日志（这条出问题时后台会一直收不到数据，而且完全无提示）\n· 桌面快捷动作执行失败会记日志（以前点了没反应，查不出原因）\n· 诊断页的「错误记录」现在能看到这几类问题，出问题时不用再靠猜"
+  "versionCode": 62,
+  "versionName": "1.8.22",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.22/wb-switch-1.8.22.apk",
+  "size": 2240190,
+  "notes": "· 内部整理：设置页原来是一个 456 行的巨型函数（模板和点击逻辑混在一起），改任何一处都得在四百多行里翻 · 现在拆成「只管长什么样」和「只管点了做什么」两半，各自两百多行；功能一行没变 · 顺带加了一条自动检查：以后谁再把它写回一个巨型函数、或者把「绑定事件」放到「生成页面」前面（那样所有按钮都会失灵），发版前就会报错"
 }
