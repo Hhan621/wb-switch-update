@@ -1,7 +1,14 @@
 {
   "versionCode": 59,
   "versionName": "1.8.19",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.19/wb-switch-1.8.19.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.19.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.19.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.19/wb-switch-1.8.19.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.19/wb-switch-1.8.19.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.19/wb-switch-1.8.19.apk"
+  ],
   "size": 2238736,
-  "notes": "· 新增「消耗趋势」：额度页多一行「本周共花 N，上周 M（多了/少了 X%）· 日均 K」，一眼看出最近花得快不快 · 口径按账号分别计算再合计，新导入一个号不会让合计暴涨；本周没刷新过的账号不计入，并明确写出有几个号没算 · 额度回血（余额上涨）按「这段时间没消耗」处理，不会倒扣掉别的账号的消耗 · 本周只有一天数据的账号算不出消耗，那一行直接不显示 —— 而不是印一句「本周共花 0」"
+  "sha256": "a5d3b0ca0bd568322f27f708eb1d1012933986349f545fb97c793abb90959384",
+  "notes": "· 新增「消耗趋势」：额度页多一行「本周共花 N，上周 M（多了/少了 X%）· 日均 K」，一眼看出最近花得快不快\n· 口径按账号分别计算再合计，新导入一个号不会让合计暴涨；本周没刷新过的账号不计入，并明确写出有几个号没算\n· 额度回血（余额上涨）按「这段时间没消耗」处理，不会倒扣掉别的账号的消耗\n· 本周只有一天数据的账号算不出消耗，那一行直接不显示 —— 而不是印一句「本周共花 0」"
 }
