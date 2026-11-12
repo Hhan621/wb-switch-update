@@ -1,14 +1,7 @@
 {
-  "versionCode": 62,
-  "versionName": "1.8.22",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.22.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.22.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.22/wb-switch-1.8.22.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.22/wb-switch-1.8.22.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.22/wb-switch-1.8.22.apk"
-  ],
-  "size": 2240190,
-  "sha256": "078db1576774dc0a459074a86df8fec24c2c069d42e025c99842d2d8182405f7",
-  "notes": "· 内部整理：设置页原来是一个 456 行的巨型函数（模板和点击逻辑混在一起），改任何一处都得在四百多行里翻\n· 现在拆成「只管长什么样」和「只管点了做什么」两半，各自两百多行；功能一行没变\n· 顺带加了一条自动检查：以后谁再把它写回一个巨型函数、或者把「绑定事件」放到「生成页面」前面（那样所有按钮都会失灵），发版前就会报错"
+  "versionCode": 63,
+  "versionName": "1.8.23",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.23/wb-switch-1.8.23.apk",
+  "size": 2241955,
+  "notes": "· 新增「这台设备多久没上报」的提示：打开 App 时如果你这台手机已经超过 26 小时没把数据传出去，账号页顶部会出现一条黄色提示，写明「数据还在本机，但后台暂时看不到它」 · 点那条提示会立刻补报一次，并直接告诉你成功还是失败、失败原因是什么 —— 以前这种情况在界面上完全看不出来 · 26 小时这个阈值是按天合并上报 + 30 分钟节流的实际节奏定的，不卡 24 小时，避免天天误报 · 从没上报过、或者本机还没有账号时不会提示，不打扰"
 }
