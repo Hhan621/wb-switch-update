@@ -1,14 +1,7 @@
 {
-  "versionCode": 72,
-  "versionName": "1.8.32",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.32.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.32.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.32/wb-switch-1.8.32.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.32/wb-switch-1.8.32.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.32/wb-switch-1.8.32.apk"
-  ],
-  "size": 2245808,
-  "sha256": "bff43d85d512eca9ad78dc43e4c08493616747b45700533bf4c73ace1e240131",
-  "notes": "· 修「导出备份再导入，设置全丢了」：以前的备份文件只包含账号和记录，**不含你的偏好设置**\n· 换手机时导出的备份导回去，主题、告警阈值、签到时间、自动签到开关、显示手机号这些都要重新调一遍\n· 现在备份里会带上这些偏好；但「本机清空过」「更新提示已弹过几次」这类本机状态不会被带过去，否则新手机的行为会不对\n· 备份文件里新增了一个版本标记，以后格式变化时能自动识别"
+  "versionCode": 73,
+  "versionName": "1.8.33",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.33/wb-switch-1.8.33.apk",
+  "size": 2246259,
+  "notes": "· 修「额度百分比越界」：如果服务端给的数据异常（剩余是负数、或剩余比总量还多），以前会直接显示成「-10%」「999%」 · 现在统一夹到 0～100% 之间显示；原始数值不会被改写，诊断信息里看到的仍是服务端给的真值 · 顺带把额度页、统计页的各种异常数据（时间戳错、字段类型错、快照为空）都测了一遍，确认不会出现 NaN、undefined、无穷大这类字样 · 日均消耗和「预计还能用几天」的算法也验证过：7 天里每天掉 100，能正确算出还能用 4 天"
 }
