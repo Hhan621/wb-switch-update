@@ -1,7 +1,14 @@
 {
   "versionCode": 70,
   "versionName": "1.8.30",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.30/wb-switch-1.8.30.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.30.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.30.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.30/wb-switch-1.8.30.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.30/wb-switch-1.8.30.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.30/wb-switch-1.8.30.apk"
+  ],
   "size": 2244594,
-  "notes": "· 修「改了备注或分组，关掉就没了」：以前只有点别的地方让输入框失去焦点才算保存，打完字直接点关闭的改动会被丢掉，而且没有任何提示 · 现在点关闭、按返回、或者点了重新登录，都会先把改动存下来 · 另外修掉一个小噪音：只是点了一下输入框、什么都没改，以前也会弹「已保存」；现在真的改了才提示 · 账号详情页对各种不规范数据也做了加固（过期时间异常、字段类型不对等），点开不会白屏"
+  "sha256": "b0826a54b79c02ac6b5a70be042cfdbd8c9736363024abbd241053ede1a889e3",
+  "notes": "· 修「改了备注或分组，关掉就没了」：以前只有点别的地方让输入框失去焦点才算保存，打完字直接点关闭的改动会被丢掉，而且没有任何提示\n· 现在点关闭、按返回、或者点了重新登录，都会先把改动存下来\n· 另外修掉一个小噪音：只是点了一下输入框、什么都没改，以前也会弹「已保存」；现在真的改了才提示\n· 账号详情页对各种不规范数据也做了加固（过期时间异常、字段类型不对等），点开不会白屏"
 }
