@@ -1,14 +1,7 @@
 {
-  "versionCode": 63,
-  "versionName": "1.8.23",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.23.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.23.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.23/wb-switch-1.8.23.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.23/wb-switch-1.8.23.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.23/wb-switch-1.8.23.apk"
-  ],
-  "size": 2241955,
-  "sha256": "ed37071c9b2abe7937aebb77c354ba33cac430d9f7a85bd2d142a0fcae8cd5fd",
-  "notes": "· 新增「这台设备多久没上报」的提示：打开 App 时如果你这台手机已经超过 26 小时没把数据传出去，账号页顶部会出现一条黄色提示，写明「数据还在本机，但后台暂时看不到它」\n· 点那条提示会立刻补报一次，并直接告诉你成功还是失败、失败原因是什么 —— 以前这种情况在界面上完全看不出来\n· 26 小时这个阈值是按天合并上报 + 30 分钟节流的实际节奏定的，不卡 24 小时，避免天天误报\n· 从没上报过、或者本机还没有账号时不会提示，不打扰"
+  "versionCode": 64,
+  "versionName": "1.8.24",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.24/wb-switch-1.8.24.apk",
+  "size": 2242427,
+  "notes": "· 修一个会让导入整批失败的缺陷：如果账号文件第一条是空对象（手改过 JSON、或者某些导出工具会塞一条空的），以前会判定\"这不是账号文件\"，后面的账号一条都导不进来 · 现在会跳过认不出的条目继续往后找，好账号照常导入 · 导入报告里\"跳过的那几条\"现在能指出来了：以前全显示「(无名)」，现在会写「第 3 条」或账号的备注/昵称，能对上是哪条数据有问题"
 }
