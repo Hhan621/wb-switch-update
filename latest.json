@@ -1,7 +1,14 @@
 {
   "versionCode": 65,
   "versionName": "1.8.25",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.25/wb-switch-1.8.25.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.25.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.25.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.25/wb-switch-1.8.25.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.25/wb-switch-1.8.25.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.25/wb-switch-1.8.25.apk"
+  ],
   "size": 2242956,
-  "notes": "· 修一个「恢复备份可能丢数据」的隐患：恢复前程序会先把你当前的账号存一份，但以前**不看这一步成不成** · 如果当时存储空间不足或系统限制导致备份没存上，它照样往下覆盖 —— 你以为有退路，其实唯一的退路刚写失败了，而且没有任何提示 · 现在会先确认备份真的存上了；没存上就停下来告诉你「当前 N 个账号将无法找回」，由你决定要不要继续 · 顺带把备份恢复路径的失败场景都测了一遍（内容损坏 / JSON 坏 / 空文件 / 读失败 / 写失败），确认任何一条失败路径都不会动到当前数据"
+  "sha256": "2d5deb48b52122dfd7891d20de65e54abca03bc0c9561124ddc9f4b440fd52d7",
+  "notes": "· 修一个「恢复备份可能丢数据」的隐患：恢复前程序会先把你当前的账号存一份，但以前**不看这一步成不成**\n· 如果当时存储空间不足或系统限制导致备份没存上，它照样往下覆盖 —— 你以为有退路，其实唯一的退路刚写失败了，而且没有任何提示\n· 现在会先确认备份真的存上了；没存上就停下来告诉你「当前 N 个账号将无法找回」，由你决定要不要继续\n· 顺带把备份恢复路径的失败场景都测了一遍（内容损坏 / JSON 坏 / 空文件 / 读失败 / 写失败），确认任何一条失败路径都不会动到当前数据"
 }
