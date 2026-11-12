@@ -1,7 +1,14 @@
 {
   "versionCode": 71,
   "versionName": "1.8.31",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.31/wb-switch-1.8.31.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.31.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.31.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.31/wb-switch-1.8.31.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.31/wb-switch-1.8.31.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.31/wb-switch-1.8.31.apk"
+  ],
   "size": 2244974,
-  "notes": "· 修「连续签到显示成负数/乱码」：签到数据里如果出现异常值（负数、非数字），以前会原样显示成「连续 -5 天」「连续 abc 天」 · 现在统一按「非负整数」处理，异常值一律显示 0 天；超过 100 年的也按 0 算（那种只可能是坏数据） · 顺带把签到页的三态（已签到 / 待签到 / 今天还没确认）与「不知道不算没签」这条口径都测了一遍，确认不会虚报漏签 · 签到数据异常（时间戳不对、字段类型错）时签到页和统计页都不会崩"
+  "sha256": "80091ae96abd5bedf2be42b9c3a38f7312d229e1ea406aada547161d476d01ce",
+  "notes": "· 修「连续签到显示成负数/乱码」：签到数据里如果出现异常值（负数、非数字），以前会原样显示成「连续 -5 天」「连续 abc 天」\n· 现在统一按「非负整数」处理，异常值一律显示 0 天；超过 100 年的也按 0 算（那种只可能是坏数据）\n· 顺带把签到页的三态（已签到 / 待签到 / 今天还没确认）与「不知道不算没签」这条口径都测了一遍，确认不会虚报漏签\n· 签到数据异常（时间戳不对、字段类型错）时签到页和统计页都不会崩"
 }
