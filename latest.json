@@ -1,7 +1,14 @@
 {
   "versionCode": 64,
   "versionName": "1.8.24",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.24/wb-switch-1.8.24.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.24.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.24.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.24/wb-switch-1.8.24.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.24/wb-switch-1.8.24.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.24/wb-switch-1.8.24.apk"
+  ],
   "size": 2242427,
-  "notes": "· 修一个会让导入整批失败的缺陷：如果账号文件第一条是空对象（手改过 JSON、或者某些导出工具会塞一条空的），以前会判定\"这不是账号文件\"，后面的账号一条都导不进来 · 现在会跳过认不出的条目继续往后找，好账号照常导入 · 导入报告里\"跳过的那几条\"现在能指出来了：以前全显示「(无名)」，现在会写「第 3 条」或账号的备注/昵称，能对上是哪条数据有问题"
+  "sha256": "3e677fc00c0883ac22fae2cced78509d0680d23f798d72a449a142066344b734",
+  "notes": "· 修一个会让导入整批失败的缺陷：如果账号文件第一条是空对象（手改过 JSON、或者某些导出工具会塞一条空的），以前会判定\"这不是账号文件\"，后面的账号一条都导不进来\n· 现在会跳过认不出的条目继续往后找，好账号照常导入\n· 导入报告里\"跳过的那几条\"现在能指出来了：以前全显示「(无名)」，现在会写「第 3 条」或账号的备注/昵称，能对上是哪条数据有问题"
 }
