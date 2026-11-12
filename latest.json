@@ -1,14 +1,7 @@
 {
-  "versionCode": 67,
-  "versionName": "1.8.27",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.27.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.27.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.27/wb-switch-1.8.27.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.27/wb-switch-1.8.27.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.27/wb-switch-1.8.27.apk"
-  ],
-  "size": 2243255,
-  "sha256": "5acf4cb94e97b992d3840fb29fc0057d44aba899f6d0fd5fcba8e151a062d99a",
-  "notes": "· 这版主要是内部加固，行为没有可见变化：把「限流退避」这条路径的边界情况全测了一遍\n· 确认了几件以前没有明确保证的事：服务端给的等待时间是不规范值（乱码/负数/超大）时，不会被算成「永不再刷新」；合法的等待时间会被正确遵守\n· 确认删账号会连它的限流记录一起清掉，反复刷新也不会堆积定时器"
+  "versionCode": 68,
+  "versionName": "1.8.28",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.28/wb-switch-1.8.28.apk",
+  "size": 2243609,
+  "notes": "· 修一个会让「告警完全失效」的问题：如果 App 里存的告警去重记录被写坏（手改过备份、或旧版本残留），以前会导致**所有提醒一条都不发**，而且界面上完全看不出来 · 表现是：账号凭证失效了、额度掉到底了，却收不到任何通知 —— 用户只会觉得\"这个 App 怎么不提醒了\" · 现在遇到坏数据会自动重置去重记录，该报的照报 · 顺带把告警节流的各种情况都过了一遍：20 小时内不重复、「凭证已失效」不会被「即将到期」的去重记录挡住、各类开关互不影响、去重记录会定期清理"
 }
