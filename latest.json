@@ -1,7 +1,14 @@
 {
   "versionCode": 77,
   "versionName": "1.8.37",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.37/wb-switch-1.8.37.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.37.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.37.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.37/wb-switch-1.8.37.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.37/wb-switch-1.8.37.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.37/wb-switch-1.8.37.apk"
+  ],
   "size": 2251666,
-  "notes": "版本 1.8.37"
+  "sha256": "9d34d1251a61cd9a2e5b98a84d28696d3fa34b6777c749193bce2e0f13a3a7fd",
+  "notes": "1.8.37 数据丢失提示不再被三步引导顶掉"
 }
