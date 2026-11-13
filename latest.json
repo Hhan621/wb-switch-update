@@ -1,14 +1,7 @@
 {
   "versionCode": 74,
   "versionName": "1.8.34",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.34.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.34.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.34/wb-switch-1.8.34.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.34/wb-switch-1.8.34.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.34/wb-switch-1.8.34.apk"
-  ],
-  "size": 2248444,
-  "sha256": "f2e65b68b468f771d8dd4eedc81770c02416a98c533eebdcc621792df96a559a",
-  "notes": "· 新功能：首页账号列表顶上会显示「落后 N 个版本」，点一下直接更新\n· 以前版本提示只藏在「设置 → 检查更新」那一行里，基本没人翻得到 —— 后台统计显示大部分设备还停在很早的版本\n· 这条提示只在真的落后时才出现，升到最新就自动消失，不打扰\n· 落后几个版本按版本号算，不是按版本名猜，所以数字是准的"
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.34/wb-switch-1.8.34.apk",
+  "size": 2248464,
+  "notes": "版本 1.8.34"
 }
