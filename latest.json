@@ -1,14 +1,7 @@
 {
-  "versionCode": 86,
-  "versionName": "1.8.46",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.46.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.46.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.46/wb-switch-1.8.46.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.46/wb-switch-1.8.46.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.46/wb-switch-1.8.46.apk"
-  ],
-  "size": 2261057,
-  "sha256": "129eb0c8834f53b5bf4fb72b6be4eff8beeb2829757840c22676a3087f332300",
-  "notes": "重复账号：列表上标出多余的记录，统计页一键清理（保留凭证最新的那条）"
+  "versionCode": 87,
+  "versionName": "1.8.47",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.47/wb-switch-1.8.47.apk",
+  "size": 2261321,
+  "notes": "版本 1.8.47"
 }
