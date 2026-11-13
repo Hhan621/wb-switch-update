@@ -1,14 +1,7 @@
 {
-  "versionCode": 78,
-  "versionName": "1.8.38",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.38.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.38.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.38/wb-switch-1.8.38.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.38/wb-switch-1.8.38.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.38/wb-switch-1.8.38.apk"
-  ],
-  "size": 2252583,
-  "sha256": "be9f005d02d0767c6c863d5fb9decca6daab632ee4482854c90d3aa60c775cde",
-  "notes": "清空本机数据时不再抹掉备份指纹（死代码清理，行为不变）"
+  "versionCode": 79,
+  "versionName": "1.8.39",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.39/wb-switch-1.8.39.apk",
+  "size": 2252512,
+  "notes": "版本 1.8.39"
 }
