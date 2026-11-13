@@ -1,7 +1,14 @@
 {
   "versionCode": 75,
   "versionName": "1.8.35",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.35/wb-switch-1.8.35.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.35.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.35.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.35/wb-switch-1.8.35.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.35/wb-switch-1.8.35.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.35/wb-switch-1.8.35.apk"
+  ],
   "size": 2248625,
-  "notes": "版本 1.8.35"
+  "sha256": "cb118fe1ac82f2a756069944d6ae5306ffe6b936c99bb28f9228784a196f2237",
+  "notes": "· 修：换手机走「加密同步」这条路口令一输，同步过去只有账号，主题/告警阈值/签到时间全没跟过去\n· 原因：导出和加密同步是两套设置清单，同步只认自己那 20 项，认不出导出包里的整包设置\n· 现在两条路认同一份数据，走哪条都能把设置带过去\n· 顺手补了断言：导出包必须能被同步入口认出设置；老格式包和脏数据不会被误判"
 }
