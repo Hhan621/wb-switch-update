@@ -1,14 +1,7 @@
 {
-  "versionCode": 76,
-  "versionName": "1.8.36",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.36.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.36.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.36/wb-switch-1.8.36.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.36/wb-switch-1.8.36.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.36/wb-switch-1.8.36.apk"
-  ],
-  "size": 2250073,
-  "sha256": "6ee60dcdacbbc81e5e4f59a934c4adea57b6a3ae1b97bdd9740216f8f71df3d6",
-  "notes": "· 修：从另一台手机同步过来的设置，脏值会原样写进本机，而且把本机配好的好值冲掉\n· 具体后果：签到小时变成非数字（页面上显示 undefined）、告警阈值变成非法值（告警一次都不触发）、主题变成数字（界面掉默认色）\n· 现在落地前先按类型和区间清洗，坏值不写、也不覆盖本机原值\n· 被丢下的设置项会留记录，诊断页能看见，不再静默吞掉\n· 同步完如果改了签到时间/告警开关，会顺手推给后台，不然后台还按旧设置在跑"
+  "versionCode": 77,
+  "versionName": "1.8.37",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.37/wb-switch-1.8.37.apk",
+  "size": 2251666,
+  "notes": "版本 1.8.37"
 }
