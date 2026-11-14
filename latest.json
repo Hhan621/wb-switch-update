@@ -1,7 +1,14 @@
 {
   "versionCode": 94,
   "versionName": "1.8.54",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.54/wb-switch-1.8.54.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.54.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.54.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.54/wb-switch-1.8.54.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.54/wb-switch-1.8.54.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.54/wb-switch-1.8.54.apk"
+  ],
   "size": 2264211,
-  "notes": "版本 1.8.54"
+  "sha256": "489648874244ac15f0e8a81dde6aba2ae8d3691a43b2f5236f63a298dfcfd436",
+  "notes": "用量异常提醒和签到提醒这两个开关，换手机加密同步时不再被悄悄打开——以前关掉过去到新机器又自己开了"
 }
