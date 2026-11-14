@@ -1,7 +1,14 @@
 {
   "versionCode": 90,
   "versionName": "1.8.50",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.50/wb-switch-1.8.50.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.50.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.50.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.50/wb-switch-1.8.50.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.50/wb-switch-1.8.50.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.50/wb-switch-1.8.50.apk"
+  ],
   "size": 2262041,
-  "notes": "版本 1.8.50"
+  "sha256": "886a6cdc84d14539a41bd06c43cae8721502167273a3f61bdbe08d245085a7b4",
+  "notes": "重复账号：列表上标出多余的记录，统计页一键清理（保留凭证最新的那条）"
 }
