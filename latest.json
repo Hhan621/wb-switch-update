@@ -1,7 +1,14 @@
 {
   "versionCode": 92,
   "versionName": "1.8.52",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.52/wb-switch-1.8.52.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.52.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.52.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.52/wb-switch-1.8.52.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.52/wb-switch-1.8.52.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.52/wb-switch-1.8.52.apk"
+  ],
   "size": 2262942,
-  "notes": "版本 1.8.52"
+  "sha256": "16ca5aed17232195fee28bd5a29c0f78dfde4fece0cd6ceb04f2cc2ac6740719",
+  "notes": "同步时没跟过来的设置现在会明说：列出来是哪几项、为什么没同步，账号本身不受影响"
 }
