@@ -1,7 +1,14 @@
 {
   "versionCode": 103,
   "versionName": "1.8.63",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.63/wb-switch-1.8.63.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.63.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.63.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.63/wb-switch-1.8.63.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.63/wb-switch-1.8.63.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.63/wb-switch-1.8.63.apk"
+  ],
   "size": 2272742,
-  "notes": "版本 1.8.63"
+  "sha256": "10a0f4530b8c842f98150ebfae29567e78d4d6daff9994839dd7fe0bb2e340e1",
+  "notes": "上报数据存服务端时，如果查旧记录那一步报错，程序会以为「这台设备还没上报过」，于是给同一台设备再存一条记录——后几片的账号就查不到了（19 个账号只剩 10 个就是这么来的）。现在查不到旧记录一律当成失败让 App 重发，绝不再存第二条；而第一片的查询失败不再拖垮整包写入"
 }
