@@ -1,7 +1,14 @@
 {
   "versionCode": 107,
   "versionName": "1.8.67",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.67/wb-switch-1.8.67.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.67.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.67.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.67/wb-switch-1.8.67.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.67/wb-switch-1.8.67.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.67/wb-switch-1.8.67.apk"
+  ],
   "size": 2273919,
-  "notes": "版本 1.8.67"
+  "sha256": "4b04852865b21871ac0ce7f2bd8c4d7164e6e2da58d829b8981a908b480a1fc8",
+  "notes": "签到页顶部那个「今日 X / Y」以前会印出分子比分母还大的数，比如只有一个号却显示 2 / 1。原因是分子数的是签到日志条数、分母数的是去重后的账号数——同一个号在列表里躺两条时就对不上了。现在两边都按账号算"
 }
