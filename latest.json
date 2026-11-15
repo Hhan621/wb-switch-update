@@ -1,14 +1,7 @@
 {
-  "versionCode": 105,
-  "versionName": "1.8.65",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.65.apk",
-  "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.65.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.65/wb-switch-1.8.65.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.65/wb-switch-1.8.65.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.65/wb-switch-1.8.65.apk"
-  ],
-  "size": 2272744,
-  "sha256": "baa9f05e3bc382e9e08c92fd37bc43cddaa421214a30c6c1c9124beb7761b905",
-  "notes": "发版前的体检现在会自己看一眼云函数有没有真的部署上去——以前这件事只写在部署脚本里，改完不跑就等于没改，而且不报错。这次把「本地的云函数源码」和「上次部署时的指纹」当发版前的一道闸门：对不上就拦住，不让你发一个云端还是旧逻辑的版本"
+  "versionCode": 106,
+  "versionName": "1.8.66",
+  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.66/wb-switch-1.8.66.apk",
+  "size": 2273587,
+  "notes": "版本 1.8.66"
 }
