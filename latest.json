@@ -1,7 +1,14 @@
 {
   "versionCode": 102,
   "versionName": "1.8.62",
-  "apkUrl": "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.62/wb-switch-1.8.62.apk",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.62.apk",
+  "apkUrls": [
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.62.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.62/wb-switch-1.8.62.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.62/wb-switch-1.8.62.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.62/wb-switch-1.8.62.apk"
+  ],
   "size": 2272743,
-  "notes": "版本 1.8.62"
+  "sha256": "349bdd2453af9457264dbdc0dca63a536d2a40fc86bc04e6588e194751b3c761",
+  "notes": "后台自动签到以前不按 uid 去重。同一个 WB 号在列表里躺两条时，后台每天对它签两次——一次真签到、一次「已经签过了」，还写两条日志，统计页的成功率因此能凭空出现 50%。现在跟页面一样先去掉重复的再签"
 }
