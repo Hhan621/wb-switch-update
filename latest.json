@@ -1,14 +1,14 @@
 {
-  "versionCode": 123,
-  "versionName": "1.8.83",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.83.apk",
+  "versionCode": 124,
+  "versionName": "1.8.84",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.84.apk",
   "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.83.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.83/wb-switch-1.8.83.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.83/wb-switch-1.8.83.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.83/wb-switch-1.8.83.apk"
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.84.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.84/wb-switch-1.8.84.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.84/wb-switch-1.8.84.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.84/wb-switch-1.8.84.apk"
   ],
-  "size": 2279857,
-  "sha256": "5c754d194c24cb6f58235f24d6b1fd36ad0381e875b89c20f91dd3074e476624",
-  "notes": "后台查看页加了翻页。上一版为了绕开网关 6MB 上限，把每页条数从 100 降到 20，页面能打开了，但那个页面本来就没有翻页入口——于是从「打不开」变成「只看得见最近 20 条」。线上实测共 90 条记录，等于 78% 的记录根本看不到，而且页面看起来完全正常，比打不开更容易被忽略。现在顶部会印「正在看第 X–Y 条，共 Z 条」，头部有上一页下一页，翻页时密钥不会丢。"
+  "size": 2279852,
+  "sha256": "24ec2b12406bf475d3f916f61a5e1f9cc55fe13375255561562f891a2a6dd257",
+  "notes": "后台查看页把测试设备单独分出去了。测试脚本每跑一次就会造一台新设备（E2E-xxx、RACE-A-xxx），云端按设备号去重，所以这些设备只增不减 —— 现在线上一共 90 条记录，真实设备只有 16 台、39 个账号，其余全是测试留下的 74 台、1387 个假账号。后果是顶部显示「89 台设备 1426 个账号」，比真实情况虚高三十多倍，而且第一页二十条全是测试设备，真实设备要往后翻四五页才看得见。现在按设备号前缀分辨，统计只算真实设备，测试设备另起一句报台数；列表把真实设备排到前面，测试设备打上标记、默认折叠、名称调淡。"
 }
