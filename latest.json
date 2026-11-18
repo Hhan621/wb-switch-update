@@ -1,14 +1,14 @@
 {
-  "versionCode": 129,
-  "versionName": "1.8.89",
-  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.89.apk",
+  "versionCode": 130,
+  "versionName": "1.8.90",
+  "apkUrl": "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.90.apk",
   "apkUrls": [
-    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.89.apk",
-    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.89/wb-switch-1.8.89.apk",
-    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.89/wb-switch-1.8.89.apk",
-    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.89/wb-switch-1.8.89.apk"
+    "https://wb-d1g7ympr82bc3636d-1492477400.tcloudbaseapp.com/apks/wb-switch-1.8.90.apk",
+    "https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.90/wb-switch-1.8.90.apk",
+    "https://ghfast.top/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.90/wb-switch-1.8.90.apk",
+    "https://gh-proxy.com/https://github.com/Hhan621/wb-switch-update/releases/download/v1.8.90/wb-switch-1.8.90.apk"
   ],
   "size": 2281992,
-  "sha256": "9bdfc7960a449f8f89ed1f012b7a69969df3245a8afc7a4dac7baca94a47464e",
-  "notes": "本机备份和导出的文件里，已经登录失效的号不再带着明文凭证。这些号服务端已经不认，只能重新登录，留着那份凭证除了给拿到手机的人用之外没有任何用处。还能正常用的号一个字段都不动——恢复备份仍然照常能用。号本身不会被删掉，昵称、分组、失效标记都留着，恢复回来照样提示你要重新登录。"
+  "sha256": "01dc9fd26c8937e07a0419327c041bc0cc621d8bdadb1ce7683f48f90e3e021a",
+  "notes": "后台「回传记录」页的按钮全部失效了，现在修好。原因是页面拼 HTML 时，删除确认框里那两个换行写成了 <名字>(\\n)，那是给 JS 字符串用的转义，但整段脚本在模板字面量里面，渲染时被当成了真的换行，于是输出一句跨行的字符串，浏览器解析到那里就报语法错误，整段脚本不执行——页面长得完全正常，只是「上一页 / 下一页 / 下载 / 复制 / 自检 / 删除这台设备」点了都没反应。1.8.83 加翻页时引入，一路带到 1.8.89。现在三处模板统一改成双重转义，并补了一条测试：把渲染出来的内联脚本交给真引擎解析一遍，以后同类问题会当场变红。"
 }
